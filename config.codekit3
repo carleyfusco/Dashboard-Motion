@@ -38,11 +38,11 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/Artboard.svg": {
+	"/design/MG-Assignment2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/design/Artboard.svg",
+		"oAP": "/design/MG-Assignment2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -70,6 +70,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg/background.html",
+		"oF": 0
+		},
+	"/dev/content/svg/Bushes.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/Bushes.html",
 		"oF": 0
 		},
 	"/dev/content/svg/CloudsGroup.kit": {
