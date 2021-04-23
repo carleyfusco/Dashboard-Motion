@@ -1,4 +1,6 @@
 import { gsap } from "gsap";
+import { zoomTL } from "./zoomIn"
 
+let mainTL = gsap.timeline();
 
-gsap.to("#moon",{scale:5, alpha:0, duration:5});
+mainTL.add(zoomTL);
