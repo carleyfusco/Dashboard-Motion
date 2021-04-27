@@ -9,6 +9,5 @@ gsap.set("#Bushes",{transformOrigin:"top"});
 
 zoomTL.from("#Grass",{duration:4, scale:10},"zoom")
     .from("#Flowers-Group",{duration:4, scale:10},"zoom")
-    .from("#Rocket",{duration:4, scale:10}, "zoom")
-    .from("#Bushes",{duration:5, scale:10}, "zoom")
-    .from("#Bushes",{duration:5, scale:10}, "zoom")
+    .from("#Rocket",{duration:4, scale:10, y: 2000}, "zoom")
+    .from("#Bushes",{duration:5, scale:10}, "zoom");
