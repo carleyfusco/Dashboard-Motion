@@ -163,6 +163,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/FlightPath.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/FlightPath-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/liftOff.js": {
 		"bF": 0,
 		"ft": 64,
@@ -170,6 +181,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/liftOff-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/PlanetLanding.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/PlanetLanding-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
