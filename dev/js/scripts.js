@@ -3,21 +3,14 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
 
-import { zoomTL } from "./zoomIn"
-import { fadeInTL } from "./fadeIn"
-import { RocketTL } from "./Rocket"
-import { liftOffTL } from "./liftOff"
-import { flightTL } from "./FlightPath"
-import { LandingTL } from "./PlanetLanding"
+import { introTL } from "./intro"
+import { dashboardTL } from "./dashboard"
+
 
 let mainTL = gsap.timeline();
 
-mainTL.add(fadeInTL)
-        .add(zoomTL, "-=3")
-        .add(RocketTL, "-=1")
-        .add(liftOffTL)
-        .add(flightTL)
-        .add(LandingTL)
+mainTL.add(introTL)
+        .add(dashboardTL)
 
 
 

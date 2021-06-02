@@ -80,54 +80,6 @@
 		"oAP": "/dev/content/svg/Bushes.html",
 		"oF": 0
 		},
-	"/dev/content/svg/CloudsGroup.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/CloudsGroup.html",
-		"oF": 0
-		},
-	"/dev/content/svg/Flower-Group.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/Flower-Group.html",
-		"oF": 0
-		},
-	"/dev/content/svg/Grass.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/Grass.html",
-		"oF": 0
-		},
-	"/dev/content/svg/Planet.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/Planet.html",
-		"oF": 0
-		},
-	"/dev/content/svg/Rocket.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/Rocket.html",
-		"oF": 0
-		},
-	"/dev/content/svg/Sun.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/Sun.html",
-		"oF": 0
-		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -152,79 +104,35 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/FadeIn.js": {
+	"/dev/js/dashboard.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/FadeIn-min.js",
+		"oAP": "/dev/js/dashboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/FlightPath.js": {
+	"/dev/js/intro.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/FlightPath-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/liftOff.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/liftOff-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/PlanetLanding.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/PlanetLanding-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/Rocket.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/Rocket-min.js",
+		"oAP": "/dev/js/intro-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
 	"/dev/js/scripts.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/zoomIn.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/zoomIn-min.js",
+		"oA": 0,
+		"oAP": "/dev/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
