@@ -1,7 +1,5 @@
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
 
-gsap.registerPlugin(GSDevTools);
 
 import { introTL } from "./intro";
 import { dashboardTL } from "./dashboard";
@@ -16,5 +14,3 @@ mainTL.add(introTL)
 
         
 
-
-GSDevTools.create();
