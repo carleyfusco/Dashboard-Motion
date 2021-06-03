@@ -10,10 +10,11 @@ import { dashboardTL } from "./dashboard"
 let mainTL = gsap.timeline();
 
 mainTL.add(introTL)
-        .add(dashboardTL)
+        .add(dashboardTL) 
 
 
 
+        
 
 
 GSDevTools.create();

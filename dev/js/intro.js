@@ -2,5 +2,4 @@ import { gsap } from "gsap";
 
 export let introTL = gsap.timeline();
 
-introTL.from("#Background",{alpha:0, stagger:0.25, duration:2})
-     
+introTL.to("#JeepDashboard",{alpha:1 , duration:5})

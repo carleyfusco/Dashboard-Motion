@@ -38,24 +38,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/MG-Assignment2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/design/MG-Assignment2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/design/Rocket Template.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/design/Rocket Template.sketch",
-		"oF": 0
-		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -68,15 +50,23 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/svg/dashboard.html",
+		"oF": 0
+		},
+	"/dev/content/svg/intro.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg/intro.html",
 		"oF": 0
 		},
 	"/dev/content/svg/intro.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/svg/intro.html",
 		"oF": 0
 		},
@@ -132,8 +122,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
