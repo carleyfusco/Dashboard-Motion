@@ -3,14 +3,14 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
 
-import { introTL } from "./intro"
-import { dashboardTL } from "./dashboard"
+import { introAnimation } from "./intro";
+import { dashboardAnimation } from "./dashboard";
 
 
 let mainTL = gsap.timeline();
 
-mainTL.add(introTL)
-        .add(dashboardTL) 
+mainTL.add(introAnimation())
+        .add(dashboardAnimation());
 
 
 
