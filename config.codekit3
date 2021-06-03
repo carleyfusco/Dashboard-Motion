@@ -64,20 +64,20 @@
 		"oAP": "/dev/content/svg-container.html",
 		"oF": 0
 		},
-	"/dev/content/svg/background.kit": {
+	"/dev/content/svg/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg/background.html",
+		"oAP": "/dev/content/svg/dashboard.html",
 		"oF": 0
 		},
-	"/dev/content/svg/Bushes.kit": {
+	"/dev/content/svg/intro.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg/Bushes.html",
+		"oAP": "/dev/content/svg/intro.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
