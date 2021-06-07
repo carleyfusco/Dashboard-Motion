@@ -60,21 +60,29 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .from("#SpeedBar",{duration:6, x:-412})
             
             // JEEP WAVE BLINKING
-            .from("#JeepWaveBlink",{duration:.3, alpha:0})
-            .from("#JeepWaveBlink",{duration:.3, alpha:1})
-            .from("#JeepWaveBlink",{duration:.3, alpha:0})
-            .from("#JeepWaveBlink",{duration:.3, alpha:1})
-            .from("#JeepWaveBlink",{duration:.3, alpha:0})
-            .to("#JeepWaveBlink",{duration:3, alpha:1})
-            .from("#JeepWaveBlink",{duration:.5, alpha:1})
+            .to("#JeepWave",{duration:.4, fill: "#EAD34E"}, "sametime7")
+            .to("#WranglerAhead",{duration:.4, fill: "#EAD34E"}, "sametime7")
+            .to("#JeepWave",{duration:.4, fill: "#5B5D61"}, "sametime8")
+            .to("#WranglerAhead",{duration:.4, fill: "#5B5D61"}, "sametime8")
+            .to("#JeepWave",{duration:.4, fill: "#EAD34E"}, "sametime9")
+            .to("#WranglerAhead",{duration:.4, fill: "#EAD34E"}, "sametime9")
+            .to("#JeepWave",{duration:.4, fill: "#5B5D61"}, "sametime10")
+            .to("#WranglerAhead",{duration:.4, fill: "#5B5D61"}, "sametime10")
+            .to("#JeepWave",{duration:.4, fill: "#EAD34E"}, "sametime11")
+            .to("#WranglerAhead",{duration:.4, fill: "#EAD34E"}, "sametime11")
+            .to("#JeepWave",{duration:2, fill: "#EAD34E"}, "sametime13")
+            .to("#WranglerAhead",{duration:2, fill: "#EAD34E"}, "sametime13")
+            .to("#JeepWave",{duration:.4, fill: "#5B5D61"}, "sametime12")
+            .to("#WranglerAhead",{duration:.4, fill: "#5B5D61"}, "sametime12")
+
+
             
             // NEXT RIGHT BLINKING
-            .from("#NextRight",{duration:.3, alpha:1})
-            .from("#NextRight",{duration:.3, alpha:0})
-            .from("#NextRight",{duration:.3, alpha:1})
-            .from("#NextRight",{duration:.3, alpha:0})
-            .from("#NextRight",{duration:.3, alpha:1})
-            .from("#NextRight",{duration:.3, alpha:0})
+            .from("#NextRight",{duration:.7, fill: "#5B5D61"})
+            .from("#NextRight",{duration:.7, fill: "#EAD34E"})
+            .from("#NextRight",{duration:.7, fill: "#5B5D61"})
+            .from("#NextRight",{duration:.7, fill: "#EAD34E"})
+            .from("#NextRight",{duration:.7, fill: "#5B5D61"})
 
             // BOTTOM DASHBOARD UI 2
             .from("#GreyDashBoardWord",{duration:.5, alpha:0}, "sametime5")
@@ -83,15 +91,14 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .to("#DashboardElements",{duration:1, alpha:0}, "sametime5")
             .to("#DashBoardWord",{duration:1, x:307, y:22})
             .to("#GreyDashBoardWord",{duration:.5, alpha:1})
-            .from("#DashBoardWord",{duration:1, alpha:0})
+            .to("#DashBoardWord",{duration:1, alpha:0})
 
             .to("#Music",{duration:1, fill: "#EAD34E"})
             .to("#Music",{duration:1, x:36}, "sametime6")
             .to("#GreyDashBoardWord",{duration:.5, alpha:0}, "sametime6")
             .to("#Navigation",{duration:.5, alpha:0}, "sametime6")
 
-
-
             .from("#MusicDashboard",{duration:1, alpha:0})
-            .from("#NavDashboard",{duration:1, alpha:0});
-            // .to("#DiskIcon", {rotate(360def)})
+            .from("#NavDashboard",{duration:1, alpha:0})
+            .to("#DiskIcon", {rotate:359, transformOrigin:"center", duration:3});
+        
