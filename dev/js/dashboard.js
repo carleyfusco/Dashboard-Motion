@@ -94,3 +94,4 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
 
             .from("#MusicDashboard",{duration:1, alpha:0})
             .from("#NavDashboard",{duration:1, alpha:0});
+            // .to("#DiskIcon", {rotate(360def)})
