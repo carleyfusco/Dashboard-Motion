@@ -42,6 +42,7 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .from("#Fill4",{duration:1, alpha:0}, "sametime3")
             .from("#Fill5",{duration:1, alpha:0}, "sametime3")
 
+            // NUMBERS AND TICK MARKS APPEAR
             .from("#TickMarks",{duration:1, alpha:0},"sametime3")
             .from("#TickMarkNumbers",{duration:1, alpha:0},"sametime3")
             .from("#GasNumbers",{duration:1, alpha:0},"sametime3")
@@ -75,8 +76,6 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .to("#JeepWave",{duration:.4, fill: "#5B5D61"}, "sametime12")
             .to("#WranglerAhead",{duration:.4, fill: "#5B5D61"}, "sametime12")
 
-
-            
             // NEXT RIGHT BLINKING
             .from("#NextRight",{duration:.7, fill: "#5B5D61"})
             .from("#NextRight",{duration:.7, fill: "#EAD34E"})
@@ -84,7 +83,7 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .from("#NextRight",{duration:.7, fill: "#EAD34E"})
             .from("#NextRight",{duration:.7, fill: "#5B5D61"})
 
-            // BOTTOM DASHBOARD UI 2
+            // BOTTOM DASHBOARD TO MUSIC TRANSITION UI
             .from("#GreyDashBoardWord",{duration:.5, alpha:0}, "sametime5")
             .to("#Navigation",{duration:.5, alpha:1}, "sametime5")
             .to("#Music",{duration:.5, alpha:1}, "sametime5")
