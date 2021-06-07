@@ -388,3 +388,12 @@ textarea {
     grid-area: svg-container; }
     #svg-container > div svg {
       width: 100%; }
+  #svg-container #counter {
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 90px;
+    padding-bottom: 300px;
+    padding-top: 550px;
+    padding-left: 770px;
+    position: absolute; }
