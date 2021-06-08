@@ -101,16 +101,17 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             .to("#DiskIcon", {rotate:359, transformOrigin:"center", duration:3})
 
             .to("#MusicDashboard",{duration:1, alpha:0}, "sametime14")
-            .from("#GreyDashBoardWord",{duration:.5, alpha:0}, "sametime14")
-            .to("#Navigation",{duration:.5, alpha:1}, "sametime14")
+            .to("#GreyDashBoardWord",{duration:.5, alpha:1}, "sametime14")
+            .from("#Navigation",{duration:.5, alpha:0}, "sametime14")
     
             .to("#Music",{duration:1, x:500})
             .to("#Music",{duration:1, fill: "#5B5D61"})
 
             .to("#Navigation",{duration:1, fill: "#EAD34E"})
-            .to("#Navigation",{duration:1, x:36})
+            .to("#Navigation",{duration:1, x:25})
 
 
-
-            .from("#NavDashboard",{duration:1, alpha:0});
+            .from("#NavSetup",{duration:1, alpha:0}, "sametime15")
+            .from("#NavBarBackground",{duration:1, alpha:0}, "sametime15")
+            .to("#Music",{duration:1, alpha:0}, "sametime15");
         
