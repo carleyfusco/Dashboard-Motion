@@ -22,7 +22,8 @@ function changeNumber() {
 
 export let dashboardTL = gsap.timeline();
 
-dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
+dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0},"sametime0")
+            .from("#Navigation2",{duration:.5, alpha:0},"sametime0")
             .from("#DashboardBottom",{duration:1, y:740},"sametime")
             .from("#WeatherLocationTopLeft",{duration:1, alpha:0},"sametime")
             .from("#TimeTopMiddle",{duration:1, alpha:0},"sametime")
@@ -54,7 +55,7 @@ dashboardTL.from("#GreyDashBoardWord",{duration:.5, alpha:0})
             // BOTTOM DASHBOARD UI
             .from("#DashBoardWord",{duration:1, alpha:0})
             .to("#GreyDashBoardWord",{duration:.5, alpha:0}, "sametime4")
-            .to("#Navigation",{duration:.5, alpha:0}, "sametime4")
+            .to("#Navigation2",{duration:.5, alpha:0}, "sametime4")
             .to("#Music",{duration:.5, alpha:0}, "sametime4")
             .from("#DashBoardWord",{duration:1, x:307, y:22})
             .from("#DashboardElements",{duration:1, alpha:0, onComplete: countIt})
